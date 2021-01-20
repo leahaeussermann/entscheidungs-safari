@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #d4e1cb !important;
+  color: #364134 !important;
+}
+
+//NavBar//
+
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+  background-color: white !important;
+}
+.nav-link{
+  color: white !important;
+}
+
+.nav-link.selected{
+  color: #688368 !important;
+  font-weight: bold !important;
+}
+
+
+//NavBar//
