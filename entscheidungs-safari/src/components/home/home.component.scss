@@ -1,0 +1,39 @@
+#container{
+  display: flex;
+  flex-flow: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+}
+.home{
+  color: white;
+
+  .imgContainer{
+    height: 38vw;
+    background-repeat: round;
+
+    .text-header1{
+      font-size: 3vw;
+      margin-top: 6vw;
+      margin-bottom: 2vw;
+    }
+
+    .text-header2{
+      font-size: 2vw
+    }
+  }
+
+  .btn-appointment{
+    background: #85ad6e;
+    height: 3vw;
+    color: white;
+    border-radius: 21px;
+    border: none;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+    font-size: 1.3vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  }
+}
+

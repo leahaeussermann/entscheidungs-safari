@@ -4,6 +4,7 @@ import { MissingTranslationHandler, TranslateLoader, TranslateModule } from '@ng
 import { createTranslateLoader, MyMissingTranslationHandler } from '../core/configs/translation-config';
 import { HttpClient } from '@angular/common/http';
 import {HomeComponent} from './home/home.component';
+import {MatDividerModule} from '@angular/material';
 
 
 @NgModule({
@@ -18,9 +19,10 @@ import {HomeComponent} from './home/home.component';
         useFactory: (createTranslateLoader),
         deps: [HttpClient]
       },
-      missingTranslationHandler: { provide: MissingTranslationHandler, useClass: MyMissingTranslationHandler },
+      missingTranslationHandler: {provide: MissingTranslationHandler, useClass: MyMissingTranslationHandler},
       useDefaultLang: false
-    })
+    }),
+    MatDividerModule
   ],
   entryComponents: [
   ],
