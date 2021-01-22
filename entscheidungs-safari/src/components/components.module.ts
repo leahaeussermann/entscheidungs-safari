@@ -4,12 +4,24 @@ import { MissingTranslationHandler, TranslateLoader, TranslateModule } from '@ng
 import { createTranslateLoader, MyMissingTranslationHandler } from '../core/configs/translation-config';
 import { HttpClient } from '@angular/common/http';
 import {HomeComponent} from './home/home.component';
-import {MatDividerModule} from '@angular/material';
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatDividerModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatProgressSpinnerModule,
+  MatSnackBarModule
+} from '@angular/material';
+import { ContactComponent } from './contact/contact.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     CoreModule,
@@ -22,7 +34,15 @@ import {MatDividerModule} from '@angular/material';
       missingTranslationHandler: {provide: MissingTranslationHandler, useClass: MyMissingTranslationHandler},
       useDefaultLang: false
     }),
-    MatDividerModule
+    MatDividerModule,
+    ReactiveFormsModule,
+    MatSnackBarModule,
+    MatFormFieldModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatCardModule,
+    MatButtonModule,
+    MatProgressSpinnerModule
   ],
   entryComponents: [
   ],

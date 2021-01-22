@@ -10,7 +10,7 @@ body{
   background-color: white !important;
 }
 .nav-link{
-  color: white !important;
+  color: #688368 !important;
 }
 
 .nav-link.selected{
@@ -19,4 +19,32 @@ body{
 }
 
 
-//NavBar//
+// NavBar//
+
+// Spinner //
+.spinner-container {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  mat-spinner {
+    width: 60px !important;
+    height: 60px !important;
+
+    svg {
+      width: 60px !important;
+      height: 60px !important;
+
+      circle {
+        stroke: #364134 !important;
+      }
+    }
+  }
+}
+
+// Spinner //
