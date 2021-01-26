@@ -9,8 +9,14 @@
   }
 }
 @media (max-width: 767px){
+  #hhh{
+    display: block !important;
+  }
   #footer{
     height: 50px !important;
+  }
+  #ccc{
+    padding-right: 0 !important;
   }
   #text-elem{
     padding-right: 15px !important;
@@ -133,9 +139,29 @@
   }
 
   .content{
+    border-top: 20px solid white;
     height: auto;
     min-height: unset;
     background-color: rgba(133, 173, 110, 0.35);
+    background-image: none;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .contenti{
+    border-top: 20px solid white;
+    height: auto;
+    min-height: unset;
+    background-color: white;
+    background-image: none;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .contenti1{
+    border-top: 20px solid rgba(133, 173, 110, 0.35);
+    height: auto;
+    min-height: unset;
+    background-color: white;
     background-image: none;
     padding-top: 90px;
     padding-bottom: 90px;
@@ -156,7 +182,7 @@
     height: auto;
     min-height: unset;
     color: #FFFFFF;
-    background-color: rgba(133, 173, 110, 0.31);
+    background-color: -moz-win-communicationstext;
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
