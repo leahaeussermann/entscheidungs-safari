@@ -2,7 +2,8 @@
 body{
   background-color: #d4e1cb !important;
   color: #364134 !important;
-  font-family: 'Montserrat-Medium', sans-serif !important;
+  // font-family: "Montserrat-Medium", sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 //NavBar//
@@ -11,12 +12,13 @@ body{
   background-color: white !important;
 }
 .nav-link{
-  color: #688368 !important;
+  color: #7da87b !important;
 }
 
 .nav-link.selected{
-  color: #688368 !important;
+  color: #364134 !important;
   font-weight: bold !important;
+  font-style: italic !important;
 }
 
 
@@ -49,3 +51,5 @@ body{
 }
 
 // Spinner //
+
+
