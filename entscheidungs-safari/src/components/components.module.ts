@@ -16,12 +16,14 @@ import {
 import { ContactComponent } from './contact/contact.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    AboutMeComponent
   ],
   imports: [
     CoreModule,
