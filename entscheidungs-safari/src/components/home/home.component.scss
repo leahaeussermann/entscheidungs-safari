@@ -1,6 +1,6 @@
 @media (max-width: 767px){
   .content {
-    padding-top: 15px !important;
+    padding-top: 70px !important;
     padding-bottom: 15px !important;
   }
   .content2 {
@@ -9,6 +9,9 @@
   }
 }
 @media (max-width: 767px){
+  #footer{
+    height: 50px !important;
+  }
   #text-elem{
     padding-right: 15px !important;
   }
