@@ -15,50 +15,29 @@
     padding-top: 15px !important;
     padding-bottom: 15px !important;
   }
-
-  #howto{
+  .appointment{
     padding-top: 15px !important;
     padding-bottom: 15px !important;
   }
 }
+
 @media (max-width: 767px){
-  #footer{
-    height: 50px !important;
-  }
-  #text-elem{
-    padding-right: 15px !important;
-  }
   .cont-three-text-element{
     padding-right: 15px !important;
-  }
-  #h-section-boxed-container{
-    width: 100% !important;
   }
   .cont-three-image{
     width: 100% !important;
   }
-  #contTwo{
-    display: contents !important;
-  }
   .content-three{
     display: contents !important;
-  }
-  #gg{
-    display: inline-block !important;
   }
   .content-two-text{
     display: inline-block !important;
   }
-  #cc {
-    width: 100% !important;
-  } .cont-four-text-wrap {
+  .cont-four-text-wrap {
     width: 100% !important;
   }
-
   .text-wrap {
-    width: 100% !important;
-  }
-  #cc2 {
     width: 100% !important;
   }
   .cont-four-text-wrap-two {
@@ -67,110 +46,20 @@
   .text-wrap-two {
     width: 100% !important;
   }
-  #cc3{
-    width: 100% !important;
-  }
   .content-two-wrapper-text{
-    width: 100% !important;
-  }
-  #li1{
     width: 100% !important;
   }
   .cont-two-list-wrap{
     width: 100% !important;
   }
-  #li2{
-    width: 100% !important;
-  }
   .cont-two-list-wrap-two{
-    width: 100% !important;
-  }
-  #li3{
     width: 100% !important;
   }
   .cont-two-list-wrap-three{
     width: 100% !important;
   }
-  #sp{
-    font-size: 25px !important;
-  }
-  #icon-four{
-    font-size: 25px !important;
-  }
-  #icon-three{
-    font-size: 25px !important;
-  }
-  #icon-two{
-    font-size: 25px !important;
-  }
-  #icon-one{
-    font-size: 25px !important;
-  }
-  #sp1{
-    font-size: 25px !important;
-  }
-  #cont-two-icon-one{
-    font-size: 25px !important;
-  }
-  #sp2{
-    font-size: 25px !important;
-  }
-  #cont-two-icon-two{
-    font-size: 25px !important;
-  }
-  #sp3{
-    font-size: 25px !important;
-  }
-  #cont-two-icon-three{
-    font-size: 25px !important;
-  }
-  #cont-two-icon-four{
-    align-self: start !important;
-  }
-  #ic{
-    font-size: 25px !important;
-  }
-  #ic1{
-    font-size: 25px !important;
-  }
-  #ic2{
-    font-size: 25px !important;
-  }
-  #ic3{
-    font-size: 25px !important;
-  }
-  #gh{
-    padding-top: 0px !important;
-  }
   .wrapper{
-    padding-top: 0px !important;
-  }
-  #ico{
-    align-self: start !important;
-  }
-  #ico1{
-    align-self: start !important;
-  }
-  #cont-two-icon-five{
-    align-self: start !important;
-  }
-  #ico2{
-    align-self: start !important;
-  }
-  #cont-two-icon-six{
-    align-self: start !important;
-  }
-  #ico3{
-    align-self: start !important;
-  }
-  #cont-two-icon-seven{
-    align-self: start !important;
-  }
-  #ico4{
-    align-self: start !important;
-  }
-  #cont-two-icon-eight{
-    align-self: start !important;
+    padding-top: 0 !important;
   }
 }
 
@@ -321,8 +210,6 @@
           }
         }
       }
-
-
     }
 
     .text-three{
@@ -340,6 +227,7 @@
       padding-right: 10px;
       padding-top: 25px;
     }
+
     .btn-appointment{
       background-color: rgb(133, 173, 110);
       background-image: none;
@@ -365,8 +253,6 @@
       padding: 15px 30px;
       text-align: center;
     }
-
-
   }
 
   .content-two{
@@ -464,7 +350,7 @@
 
       .cont-three-image{
         width: 85%;
-        box-shadow: 0px 0px 10px 2px rgb(0 0 0);
+        box-shadow: 0 0 10px 2px rgb(0 0 0);
       }
     }
     .cont-three-text-element{
@@ -484,7 +370,7 @@
         .cont-three-text{
           font-weight: 400;
           font-size: 18px;
-          letter-spacing: 0px;
+          letter-spacing: 0;
           color: #FFFFFF;
           font-family: 'Architects Daughter', cursive;
           padding-top: 15px;
@@ -624,50 +510,134 @@
     }
   }
 
+  .appointment{
+    padding-top: 90px;
+    padding-bottom: 90px;
 
+    .appointment-wrapper{
+      font-size: 28px;
+      text-align: center;
+      color: #6b725b;
+      padding-left: 50px;
+      padding-right: 50px;
 
+      .appointment-button{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 25px;
+      }
 
-
-  .btn-appointment{
-    background-color: rgb(133, 173, 110);
-    background-image: none;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 1em;
-    letter-spacing: 1px;
-    color: white;
-    border-top-width: 2px;
-    border-top-color: #FFFFFF;
-    border-top-style: solid;
-    border-right-width: 2px;
-    border-right-color: #FFFFFF;
-    border-right-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #FFFFFF;
-    border-bottom-style: solid;
-    border-radius: 56px;
-    border-left-width: 2px;
-    border-left-color: #FFFFFF;
-    border-left-style: solid;
-    padding: 15px 30px;
-    text-align: center;
+      .btn-appointment{
+        background-color: rgb(133, 173, 110);
+        background-image: none;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 1em;
+        letter-spacing: 1px;
+        color: white;
+        border-top-width: 2px;
+        border-top-color: #FFFFFF;
+        border-top-style: solid;
+        border-right-width: 2px;
+        border-right-color: #FFFFFF;
+        border-right-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: #FFFFFF;
+        border-bottom-style: solid;
+        border-radius: 56px;
+        border-left-width: 2px;
+        border-left-color: #FFFFFF;
+        border-left-style: solid;
+        padding: 15px 30px;
+        text-align: center;
+      }
+    }
   }
 
-
-
-
-
-  .content-four{
+  .content-how-to{
     height: auto;
     min-height: unset;
     background-color: white;
     background-image: none;
     padding-top: 65px;
     padding-bottom: 65px;
+
+    .how-to-wrapper{
+      display: block;
+
+      .how-to-wrap{
+        display: flex;
+        margin-right: 20px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+        justify-content: center;
+
+        .how-to-header{
+          font-size: 28px;
+          color: #85ad6e;
+          margin-bottom: 10px;
+          align-self: center;
+        }
+      }
+
+      .how-to-li{
+        display: flex;
+        margin-right: 35px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+
+        .how-to-li-item{
+          font-size: 16px;
+          color: #6b725b;
+          margin-bottom: 10px;
+          align-self: center;
+        }
+      }
+
+      .how-to-li-two{
+        display: flex;
+        margin-right: 35px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+
+        .how-to-li-item-two{
+          font-size: 16px;
+          color: #6b725b;
+          margin-bottom: 10px;
+          align-self: center;
+        }
+      }
+
+      .how-to-li-three{
+        display: flex;
+        margin-right: 35px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+
+        .how-to-li-item-three{
+          font-size: 16px;
+          color: #6b725b;
+          margin-bottom: 10px;
+          align-self: center;
+        }
+      }
+
+      .how-to-li-four{
+        display: flex;
+        margin-right: 35px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+
+        .how-to-li-item-four{
+          font-size: 16px;
+          color: #6b725b;
+          margin-bottom: 10px;
+          align-self: center;
+        }
+      }
+    }
   }
-
-
-
 }
 
