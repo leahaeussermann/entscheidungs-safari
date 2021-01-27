@@ -3,5 +3,8 @@
     "TITLE": "Hello Angular with translate",
     "TEXT": "Random text",
     "SELECT": "Select language"
+  },
+  "ABOUT": {
+    "ABOUT_ME": "About me"
   }
 }

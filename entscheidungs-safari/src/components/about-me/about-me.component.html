@@ -1,17 +1,17 @@
 <div class="aboutme">
   <div class="imgContainer" style="background-image: url('./assets/images/headerpic.jpg');">
-    <div id="gh" style="padding-top: 20px;">
-      <h2 class="text-header1">Über mich</h2>
+    <div>
+      <h2 class="text-header1">{{'ABOUT.ABOUT_ME' | translate}}</h2>
     </div>
   </div>
-  <div class="containerone" id="containerone" style="margin-left: 100px; margin-right: 100px">
-    <div class="content" id="content">
-      <div style="display: flex; flex-wrap: wrap; display: -webkit-box;">
-        <div id="cc" style="width: 100%; flex: 0 0 auto; height: auto; min-height: unset; display: block">
-          <div style="display: flex">
-            <div style="display: block; margin-right: 50px; margin-left: 50px; margin-bottom: 16px; line-height: 1.6;
-                      color: rgb(70, 112, 127);">
-              <div><span style="font-size: 28px; color: rgb(133, 173, 110);">Meine Vision </span>ist es, Menschen dabei zu helfen
+  <div class="outer-container">
+    <div class="content">
+      <div class="wrapper">
+        <div class="wrapper-one">
+          <div class="first-part">
+            <div class="text">
+              <div>
+                <span class="span-first-word">Meine Vision </span>ist es, Menschen dabei zu helfen
                 Entscheidungen zu treffen. Im Leben stehen wir immer
                 wieder vor schwierigen Entscheidungen. Oft haben wir dabei das Gefühl, wir müssten irgendwie alleine in
                 der Lage sein, "die richtige" Entscheidung zu treffen. Doch schwierige Entscheidungen können uns lähmen,
@@ -23,8 +23,8 @@
                 der neue Perspektiven eröffnet und der sogar Begeisterung und Neugier auf das Unbekannte,
                 auf deine Entscheidung und das, was danach kommt, entstehen lässt.
               </div>
-              <div id="button-one" style="text-align: center; margin-top: 75px;">
-              <span style="">
+              <div class="button" id="button-one">
+              <span>
                 <button class="btn-appointment" (click)="redirectToContact()">ERFAHRE MEHR</button>
               </span>
               </div>
@@ -33,13 +33,13 @@
         </div>
       </div>
     </div>
-    <div class="contenti" id="contenti">
-      <div style="display: flex; flex-wrap: wrap; display: -webkit-box;">
-        <div id="cc" style="width: 100%; flex: 0 0 auto; height: auto; min-height: unset; display: block">
-          <div style="display: flex">
-            <div style="display: block; margin-right: 50px; margin-left: 50px; margin-bottom: 16px; line-height: 1.6;
-                      color: rgb(70, 112, 127);">
-              <div><span style="font-size: 28px; color: rgb(133, 173, 110);">In meiner Arbeit </span>ist es mir sehr wichtig,
+    <div class="content-two">
+      <div class="wrapper">
+        <div class="cont-two-wrapper-one">
+          <div class = "first-part">
+            <div class="text">
+              <div>
+                <span class="text-span">In meiner Arbeit </span>ist es mir sehr wichtig,
                 Entscheidungen nicht einseitig zu betrachten.
                 <br>
                 Gute Entscheidungen kann man selten rein rational oder rein emotional treffen.
@@ -53,16 +53,12 @@
         </div>
       </div>
     </div>
-
-
-    <div style="display: block; box-shadow: 0px 0px 10px 2px #85ad6e;
-    margin-top: 30px; background: rgba(133, 173, 110, 0.35);">
-
-      <div id="text-elem2" style="; padding-right: 15px;">
-        <div id="hhh" style="display: flex; margin-top: 15px; margin-bottom: 15px; height: 95%;">
-          <div id="ccc" style="display: block; margin-right: 50px; margin-left: 50px; margin-bottom: 16px; padding-top: 15px;
-        line-height: 1.6; color: rgb(70, 112, 127); align-self: center;">
-            <div><span style="font-size: 28px; color: rgb(133, 173, 110);">Ich bin </span>Safari-Fan und Auswanderin,
+    <div class="content-three">
+      <div class="text-element-one" style="; padding-right: 15px;">
+        <div class="cont-three-text">
+          <div class="cont-three-text-wrapper">
+            <div>
+              <span class="span-text">Ich bin </span>Safari-Fan und Auswanderin,
               außerdem habe ich Psychologie studiert (M.Sc. Uni Konstanz)
               und mit den unterschiedlichsten Menschen in verschiedenen Kontexten und Kulturen gearbeitet.
               <br>
@@ -75,26 +71,21 @@
             </div>
 
           </div>
-          <div class="imgContainer2">
-            <img id="h-section-boxed-container" src="./assets/images/img.jpg"
-                 style="width: 100%; box-shadow: 0px 0px 10px 2px rgb(133 173 110);">
-
+          <div class="img-container-two">
+            <img class="image-cont-three" src="./assets/images/img.jpg">
           </div>
         </div>
       </div>
-      <div id="text-elem" style="padding-right: 15px;">
-        <div id="hhh" style="display: flex; margin-top: 15px; margin-bottom: 15px; height: 95%;">
+      <div class="text-element-two">
+        <div class="cont-three-text-two">
           <div>
-            <div class="imgContainer3">
-              <img id="h-section-boxed-container" src="./assets/images/img1.jpg"
-                   style="width: 100%; box-shadow: 0px 0px 10px 2px rgb(133 173 110);" alt="">
-
+            <div class="img-container-three">
+              <img class="image-two" id="h-section-boxed-container" src="./assets/images/img1.jpg" alt="">
             </div>
           </div>
-          <div id="ccc" style="display: block; margin-right: 50px; margin-left: 50px; margin-bottom: 16px;
-        line-height: 1.6; color: rgb(70, 112, 127); padding-top: 15px; padding-bottom: 15px; align-self: center;">
-
-            <div><span style="font-size: 28px; color: rgb(133, 173, 110);">Die Entscheidungssafari </span>vereint all das – Wissen,
+          <div class="cont-three-secont-text">
+            <div><span class="cont-three-span">Die Entscheidungssafari </span>
+              vereint all das – Wissen,
               Erfahrung und meine Freude daran, mich mit Menschen auf einen Weg zu begeben, der zu etwas Neuem führt.
             </div>
 
@@ -103,16 +94,16 @@
         </div>
 
       </div>
-
     </div>
 
-    <div class="content3" id="content">
-      <div style="display: flex; flex-wrap: wrap; display: -webkit-box;">
-        <div id="cc" style="width: 100%; flex: 0 0 auto; height: auto; min-height: unset; display: block">
-          <div style="display: flex">
-            <div style="display: block; margin-right: 50px; margin-left: 50px; margin-bottom: 16px; line-height: 1.6;
-                      color: rgb(70, 112, 127);">
-              <div><span style="font-size: 28px; color: rgb(133, 173, 110);">Ich bin </span>in Deutschland geboren und aufgewachsen, zwischenzeitlich hat es mich immer wieder für einige
+
+    <div class="content-four">
+      <div class="wrapper-four">
+        <div class="cont-four-text">
+          <div class="cont-four">
+            <div class="text-four">
+              <div><span class="span-four">Ich bin </span>
+                in Deutschland geboren und aufgewachsen, zwischenzeitlich hat es mich immer wieder für einige
                 Zeit im Ausland gezogen (USA, Belgien, Uganda) und seit 2018 lebe ich mit meinem Mann in Südafrika.
                 Ich sehe mich als menschliches Chamäleon, ich kann mich den unterschiedlichsten Umständen und
                 Situationen anpassen.
@@ -121,8 +112,8 @@
                 In Südafrika habe ich meine Begeisterung für Safaris entdeckt – lass mich stundenlang in einem offenen
                 Safari-Auto durch die Wildnis fahren und ich bin glücklich.
               </div>
-              <div style="text-align: center; padding: 25px 10px 45px;">
-              <span style="">
+              <div class="button-wrap-cont-four">
+              <span>
                 <button class="btn-appointment" (click)="redirectToContact()">ERFAHRE MEHR</button>
               </span>
               </div>
@@ -132,12 +123,9 @@
       </div>
     </div>
 
-    <div style="height: auto;
-    margin-top: 30px;
-    min-height: unset;
-    background-image: none;padding-top: 90px;
-    padding-bottom: 90px; background-color: rgba(133, 173, 110, 0.66); text-align: center; color: rgb(70, 112, 127);">
-      <div style="padding-left: 15px; padding-right: 15px">
+
+    <div class="footer">
+      <div class="footer-text">
         Ich weise ausdrücklich darauf hin, dass es sich weder um ein psychotherapeutisches oder medizinisches Angebot,
         noch um eine Rechtsberatung handelt. Mein Beratungsangebot beschränkt sich auf persönlichen Entscheidungen von
         Privatpersonen und ich bin in keinem Fall diagnostisch und/oder heilend tätig.
