@@ -55,6 +55,18 @@
     "FOOTER": ""
   },
   "CONTACT": {
-    "CONTACT": "Contact"
+    "CONTACT": "Contact",
+    "ERROR": "",
+    "TYPO": "",
+    "SENT": "",
+    "HEADER": "",
+    "MESSAGE": "",
+    "MAIL": "",
+    "ENTER_MAIL_ADDRESS": "",
+    "HINT": "",
+    "NAME": "",
+    "FULL_NAME": "",
+    "REQUEST": "",
+    "SEND_BTN": ""
   }
 }

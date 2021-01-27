@@ -1,48 +1,50 @@
 <div class="container">
   <div style="padding: 30px">
     <div *ngIf="mailNotSent" class="alert alert-warning" role="alert" style="text-align: center">
-      Fehler beim Senden, bitte kontaktiere mich über E-Mail-Adresse.
+      {{'CONTACT.ERROR' | translate}}
     </div>
     <div *ngIf="invalidCredentials" class="alert alert-secondary" role="alert" style="text-align: center">
-      Bitte gib deine Adresse (korrekte Schreibweise) und deinen Namen an.
+      {{'CONTACT.TYPO' | translate}}
     </div>
     <div *ngIf="mailIsSent" class="alert alert-secondary" role="alert" style="text-align: center">
-      Nachricht wurde gesendet.
+      {{'CONTACT.SENT' | translate}}
     </div>
     <h2 class="header1">
-      Beginne deine persönliche Safari...
+      {{'CONTACT.HEADER' | translate}}
     </h2>
     <h2 class="header2">
-      Sende mir eine Nachricht und ich melde mich bei dir
+      {{'CONTACT.MESSAGE' | translate}}
     </h2>
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <form [formGroup]="form" (ngSubmit)="sendMessage()" (keydown.enter)="sendMessage()">
           <div class="form-group" style="display: grid">
-            <label>E-Mail</label>
+            <label> {{'CONTACT.MAIL' | translate}} </label>
             <label>
               <input type="email" class="form-control" name="email" aria-describedby="emailHelp"
-                     placeholder="Gib hier deine E-Mail Adresse ein"
+                     placeholder="{{'CONTACT.ENTER_MAIL_ADDRESS' | translate}}"
                      formControlName="email" required>
             </label>
-            <small id="emailHelp" class="form-text text-muted">Ich gebe deine Adresse an niemanden weiter.</small>
+            <small id="emailHelp" class="form-text text-muted">
+              {{'CONTACT.HINT' | translate}}
+            </small>
           </div>
           <div class="form-group" style="display: grid">
-            <label>Name</label>
+            <label>{{'CONTACT.NAME' | translate}}</label>
             <label>
               <input type="text" class="form-control" name="fullname"
-                     placeholder="Vor- und Nachname"
+                     placeholder="{{'CONTACT.FULL_NAME' | translate}}"
                      formControlName="fullname" required>
             </label>
           </div>
           <div class="form-group" style="display: grid">
-            <label>Nachricht/ Anfrage</label>
+            <label>{{'CONTACT.REQUEST' | translate}}</label>
             <label>
             <textarea class="form-control" formControlName="comment" name="comment">
             </textarea>
             </label>
           </div>
-          <button *ngIf="!isLoading" type="submit" class="btn-submit">Senden</button>
+          <button *ngIf="!isLoading" type="submit" class="btn-submit">{{'CONTACT.SEND_BTN' | translate}}</button>
           <div *ngIf="isLoading" class="spinner-container">
             <mat-spinner></mat-spinner>
           </div>

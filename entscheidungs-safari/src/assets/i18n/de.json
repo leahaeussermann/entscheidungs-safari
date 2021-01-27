@@ -56,6 +56,18 @@
 
   },
   "CONTACT": {
-    "CONTACT": "Kontakt"
+    "CONTACT": "Kontakt",
+    "ERROR": "Fehler beim Senden, bitte kontaktiere mich über E-Mail-Adresse.",
+    "TYPO": "Bitte gib deine Adresse (korrekte Schreibweise) und deinen Namen an.",
+    "SENT": "Nachricht wurde gesendet.",
+    "HEADER": "Beginne deine persönliche Safari...",
+    "MESSAGE": "Sende mir eine Nachricht und ich melde mich bei dir",
+    "MAIL": "E-Mail",
+    "ENTER_MAIL_ADDRESS": "Gib hier deine E-Mail Adresse ein",
+    "HINT": "Ich gebe deine Adresse an niemanden weiter.",
+    "NAME": "Name",
+    "FULL_NAME": "Vor- und Nachname",
+    "REQUEST": "Nachricht/ Anfrage",
+    "SEND_BTN": "Senden"
   }
 }
