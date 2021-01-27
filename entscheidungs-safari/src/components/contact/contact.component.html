@@ -1,5 +1,4 @@
 <div class="container">
-
   <div style="padding: 30px">
     <div *ngIf="mailNotSent" class="alert alert-warning" role="alert" style="text-align: center">
       Fehler beim Senden, bitte kontaktiere mich über E-Mail-Adresse.
@@ -43,7 +42,6 @@
             </textarea>
             </label>
           </div>
-
           <button *ngIf="!isLoading" type="submit" class="btn-submit">Senden</button>
           <div *ngIf="isLoading" class="spinner-container">
             <mat-spinner></mat-spinner>
