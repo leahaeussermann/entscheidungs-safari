@@ -4,15 +4,9 @@ import {MissingTranslationHandler, MissingTranslationHandlerParams, TranslateLoa
 import {Injector} from '@angular/core';
 import {LOCATION_INITIALIZED} from '@angular/common';
 import {Observable, of} from 'rxjs';
-import {environment} from '../../environments/environment';
 
 export function createTranslateLoader(http: HttpClient) {
-  if (environment.production === true) {
-    return new TranslateHttpLoader(http, '/entscheidungs-safari/assets/i18n/', '.json');
-  } else {
-    return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-  }
-  // return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 export function translationInitializerFactory(translateService: TranslateService, injector: Injector) {

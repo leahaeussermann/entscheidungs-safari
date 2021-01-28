@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --deployUrl /entscheidungs-safari/ ---baseHref /entscheidungs-safari/",
+    "build-prod": "ng build --prod ---baseHref /",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

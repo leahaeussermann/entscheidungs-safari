@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {translationInitializerFactory} from '../core/configs/translation-config';
 import {ComponentsModule} from '../components/components.module';
-import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -19,8 +18,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
       useFactory: translationInitializerFactory,
       deps: [TranslateService, Injector],
       multi: true
-    },
-    {provide: LocationStrategy, useClass: HashLocationStrategy}
+    }
   ],
   imports: [
     BrowserModule,
