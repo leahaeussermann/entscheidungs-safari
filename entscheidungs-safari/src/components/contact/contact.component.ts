@@ -62,4 +62,8 @@ export class ContactComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.subscriptions.forEach(subscription => subscription.unsubscribe());
   }
+
+  openSecurityInfo() {
+
+  }
 }

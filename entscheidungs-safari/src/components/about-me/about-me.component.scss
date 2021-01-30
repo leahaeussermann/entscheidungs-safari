@@ -390,20 +390,21 @@
       }
     }
 
-    .footer{
-      height: auto;
-      margin-top: 30px;
-      min-height: unset;
-      background-image: none;
-      padding-top: 90px;
-      padding-bottom: 90px;
-      background-color: rgba(133, 173, 110, 0.66);
-      text-align: center; color: rgb(70, 112, 127);
 
-      .footer-text{
-        padding-left: 15px;
-        padding-right: 15px
-      }
+  }
+  .footer{
+    height: auto;
+    margin-top: 30px;
+    min-height: unset;
+    background-image: none;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgba(133, 173, 110, 0.66);
+    text-align: center; color: rgb(70, 112, 127);
+
+    .footer-text{
+      padding-left: 15px;
+      padding-right: 15px
     }
   }
 }

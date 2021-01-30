@@ -16,4 +16,8 @@ export class HomeComponent implements OnInit {
   redirectToContact() {
     this.router.navigate(['/contact']);
   }
+
+  openSecurityInfo() {
+    this.router.navigate(['/data-security']);
+  }
 }
