@@ -15,7 +15,7 @@ export class SafariComponent implements OnInit {
   }
 
   redirectToContact() {
-
+    this.router.navigate(['/contact']);
   }
 
   openSecurityInfo() {

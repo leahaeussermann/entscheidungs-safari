@@ -13,8 +13,8 @@ export class AboutMeComponent implements OnInit {
   ngOnInit() {
   }
 
-  redirectToContact() {
-
+  redirectToSafari() {
+    this.router.navigate(['/safari']);
   }
 
   openSecurityInfo() {
