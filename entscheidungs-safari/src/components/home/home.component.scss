@@ -71,7 +71,7 @@
     height: auto;
     min-height: unset;
     color: #FFFFFF;
-    background-color: #03a9f4;
+    background-color: rgba(133, 173, 110, 0.35);
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
@@ -352,7 +352,7 @@
 
       .cont-three-image{
         width: 85%;
-        box-shadow: 0 0 10px 2px rgb(0 0 0);
+        box-shadow: 0px 0px 10px 2px #85ad6e;
       }
     }
     .cont-three-text-element{
@@ -565,7 +565,6 @@
     background-color: white;
     background-image: none;
     padding-top: 65px;
-    padding-bottom: 65px;
 
     .how-to-wrapper{
       display: block;
@@ -650,7 +649,8 @@
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: rgba(133, 173, 110, 0.66);
-    text-align: center; color: rgb(70, 112, 127);
+    text-align: center;
+    color: #6b725b;
 
     .footer-text{
       padding-left: 15px;

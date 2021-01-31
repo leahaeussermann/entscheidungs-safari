@@ -3,6 +3,7 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {SendmailService} from '../../core/services/rest/sendmail.service';
 import {Subscription} from 'rxjs';
 import {MailBodyModel} from '../../core/models/mail-body.model';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -19,6 +20,7 @@ export class ContactComponent implements OnInit, OnDestroy {
   isLoading = false;
 
   constructor(private fb: FormBuilder,
+              private router: Router,
               private mailService: SendmailService) {
     this.form = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
@@ -64,6 +66,6 @@ export class ContactComponent implements OnInit, OnDestroy {
   }
 
   openSecurityInfo() {
-
+    this.router.navigate(['/data-security']);
   }
 }
