@@ -68,5 +68,8 @@
     "FULL_NAME": "",
     "REQUEST": "",
     "SEND_BTN": ""
+  },
+  "SAFARI": {
+    "SAFARI": "Decision-Safari"
   }
 }

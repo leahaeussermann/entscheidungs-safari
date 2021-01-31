@@ -9,6 +9,7 @@ div{
   line-height: 30px !important;
 
 }
+
 //NavBar//
 
 .navbar.navbar-expand-lg.navbar-light.bg-light{
@@ -22,9 +23,13 @@ div{
   color: #526a44 !important;
   font-weight: bold !important;
   // font-style: italic !important;
-  text-decoration-line: underline !important;
+  text-decoration: underline !important;
 }
 
+a{
+  color: #6b725b !important;
+  // text-decoration: underline !important;
+}
 
 // NavBar//
 
