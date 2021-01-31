@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
-import {Router} from '@angular/router';
+import {NavigationEnd, Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -11,10 +11,12 @@ export class AppComponent {
   title = 'entscheidungs-safari';
   isCollapsed = true;
   constructor(public translateService: TranslateService, public router: Router) {
-/*    translate.addLangs(['de', 'en']);
-    translate.setDefaultLang('de');*/
-/*    const browserLang = translate.getBrowserLang();
-    translate.use(browserLang.match(/de|en/) ? browserLang : 'de');*/
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
+        return;
+      }
+      window.scrollTo(0, 0);
+    });
   }
 
   refresh() {
