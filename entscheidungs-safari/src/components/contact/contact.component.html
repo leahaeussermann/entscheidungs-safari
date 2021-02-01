@@ -44,7 +44,17 @@
             </textarea>
             </label>
           </div>
-          <button *ngIf="!isLoading" type="submit" class="btn-submit">{{'CONTACT.SEND_BTN' | translate}}</button>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" [value]="checked" id="flexCheckDefault" (click)="checkboxClicked()">
+            <label class="form-check-label" for="flexCheckDefault" style="margin-left: 15px">
+              Ich habe die <u style="cursor: pointer" (click)="openSecurityInfo()">
+              Datenschutzvereinbarung</u> zur Kenntnis genommen. Ich stimme zu, dass meine Angaben zur Kontaktaufnahme und für Rückfragen gespeichert werden. (Bitte lesen und ankreuzen)
+            </label>
+          </div>
+
+          <button *ngIf="!isLoading" [disabled]="!checked" type="submit" class="btn-submit"
+                  [ngStyle]="{'background': !checked ? '#d6d6d6' : 'rgb(133, 173, 110)'}"
+          >{{'CONTACT.SEND_BTN' | translate}}</button>
           <div *ngIf="isLoading" class="spinner-container">
             <mat-spinner></mat-spinner>
           </div>
@@ -54,13 +64,25 @@
   </div>
 </div>
 <div class="footer">
-  <div>
-    Svenja Bauer
+  <div style="display: flex; justify-content: center;text-align: start;">
+    <div id="footer" style="margin-right: 200px;">
+      <div>
+        Svenja Bauer
+      </div>
+      <div>
+        <a href= "mailto:abc@example.com">info@entscheidungssafari.de</a>
+      </div>
+    </div>
+
+    <div style="display: block">
+
+      <div (click)="openSecurityInfo()" style="cursor: pointer">Datenschutz</div>
+      <div (click)="openImpressum()" style="cursor: pointer">Impressum</div>
+    </div>
+
+
   </div>
-  <div>
-    <a href= "mailto:abc@example.com">info@entscheidungssafari.de</a>
-  </div>
-  <div (click)="openSecurityInfo()" style="cursor: pointer"><u>Datenschutz</u></div>
+
   <mat-divider style="margin-top: 25px; margin-bottom: 25px"></mat-divider>
   <div class="footer-text">
     {{'ABOUT.FOOTER' | translate}}

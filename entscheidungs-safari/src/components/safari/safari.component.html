@@ -47,7 +47,7 @@
                 Mir persönlich ist total wichtig, dass du dich in der Beratung verstanden und wertgeschätzt fühlst.
                 Ich möchte erreichen, dass bei dir im Verlauf unserer Zusammenarbeit Freude und Begeisterung für dein
                 Ziel und den Weg dorthin entstehen. Dass sich dir neue Perspektiven und Möglichkeiten eröffnen.
-                Dass du eine neue Selbstwirksamkeit und ein Selbstbewusstsein erlebst.
+                Dass du eine neue Selbstwirksamkeit und ein neues Selbstbewusstsein erlebst.
                 Und dass du dir, deinen eigenen Fähigkeiten und deinem eigenen Urteil wieder mehr vertraust.
               </div>
             </div>
@@ -361,13 +361,25 @@
   </div>
 
   <div class="footer">
-    <div>
-      Svenja Bauer
+    <div style="display: flex; justify-content: center;text-align: start;">
+      <div id="footer" style="margin-right: 200px;">
+        <div>
+          Svenja Bauer
+        </div>
+        <div>
+          <a href= "mailto:abc@example.com">info@entscheidungssafari.de</a>
+        </div>
+      </div>
+
+      <div style="display: block">
+
+        <div (click)="openSecurityInfo()" style="cursor: pointer">Datenschutz</div>
+        <div (click)="openImpressum()" style="cursor: pointer">Impressum</div>
+      </div>
+
+
     </div>
-    <div>
-      <a href= "mailto:abc@example.com"> info@entscheidungssafari.de</a>
-    </div>
-    <div (click)="openSecurityInfo()" style="cursor: pointer"><u>Datenschutz</u></div>
+
     <mat-divider style="margin-top: 25px; margin-bottom: 25px"></mat-divider>
     <div class="footer-text">
       {{'ABOUT.FOOTER' | translate}}

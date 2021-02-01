@@ -18,6 +18,7 @@ export class ContactComponent implements OnInit, OnDestroy {
   mailIsSent = false;
   mailNotSent = false;
   isLoading = false;
+  checked = false;
 
   constructor(private fb: FormBuilder,
               private router: Router,
@@ -67,5 +68,12 @@ export class ContactComponent implements OnInit, OnDestroy {
 
   openSecurityInfo() {
     this.router.navigate(['/data-security']);
+  }
+  openImpressum() {
+    this.router.navigate(['/impressum']);
+  }
+
+  checkboxClicked() {
+    this.checked = !this.checked;
   }
 }

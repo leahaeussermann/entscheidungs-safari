@@ -5,13 +5,13 @@ import { createTranslateLoader, MyMissingTranslationHandler } from '../core/conf
 import { HttpClient } from '@angular/common/http';
 import {HomeComponent} from './home/home.component';
 import {
-    MatButtonModule,
-    MatCardModule,
-    MatDividerModule, MatExpansionModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatProgressSpinnerModule,
-    MatSnackBarModule
+  MatButtonModule,
+  MatCardModule, MatCheckboxModule,
+  MatDividerModule, MatExpansionModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatProgressSpinnerModule,
+  MatSnackBarModule
 } from '@angular/material';
 import { ContactComponent } from './contact/contact.component';
 import {ReactiveFormsModule} from '@angular/forms';
@@ -19,6 +19,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { DataSecurityComponent } from './data-security/data-security.component';
 import { SafariComponent } from './safari/safari.component';
+import { ImpressumComponent } from './impressum/impressum.component';
 
 
 @NgModule({
@@ -27,30 +28,32 @@ import { SafariComponent } from './safari/safari.component';
     ContactComponent,
     AboutMeComponent,
     DataSecurityComponent,
-    SafariComponent
+    SafariComponent,
+    ImpressumComponent
   ],
-    imports: [
-        CoreModule,
-        TranslateModule.forRoot({
-            loader: {
-                provide: TranslateLoader,
-                useFactory: (createTranslateLoader),
-                deps: [HttpClient]
-            },
-            missingTranslationHandler: {provide: MissingTranslationHandler, useClass: MyMissingTranslationHandler},
-            useDefaultLang: false
-        }),
-        MatDividerModule,
-        ReactiveFormsModule,
-        MatSnackBarModule,
-        MatFormFieldModule,
-        BrowserAnimationsModule,
-        MatInputModule,
-        MatCardModule,
-        MatButtonModule,
-        MatProgressSpinnerModule,
-        MatExpansionModule
-    ],
+  imports: [
+    CoreModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient]
+      },
+      missingTranslationHandler: {provide: MissingTranslationHandler, useClass: MyMissingTranslationHandler},
+      useDefaultLang: false
+    }),
+    MatDividerModule,
+    ReactiveFormsModule,
+    MatSnackBarModule,
+    MatFormFieldModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatCardModule,
+    MatButtonModule,
+    MatProgressSpinnerModule,
+    MatExpansionModule,
+    MatCheckboxModule
+  ],
   entryComponents: [
   ],
   providers: [

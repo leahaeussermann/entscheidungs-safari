@@ -5,6 +5,7 @@ import {ContactComponent} from '../components/contact/contact.component';
 import {AboutMeComponent} from '../components/about-me/about-me.component';
 import {DataSecurityComponent} from '../components/data-security/data-security.component';
 import {SafariComponent} from '../components/safari/safari.component';
+import {ImpressumComponent} from '../components/impressum/impressum.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'aboutme', component: AboutMeComponent},
   {path: 'data-security', component: DataSecurityComponent},
   {path: 'safari', component: SafariComponent},
+  {path: 'impressum', component: ImpressumComponent},
 ];
 
 @NgModule({

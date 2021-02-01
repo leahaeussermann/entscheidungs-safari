@@ -1,3 +1,9 @@
+@media (max-width: 767px) {
+  #footer {
+    margin-right: 10px !important;
+  }
+}
+
 .container{
   box-shadow: 0px 0px 10px 2px #85ad6e;
   margin-top: 2vw;
@@ -64,4 +70,13 @@
     padding-left: 15px;
     padding-right: 15px
   }
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  margin-top: 10px;
 }

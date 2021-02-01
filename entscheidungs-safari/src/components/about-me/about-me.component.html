@@ -98,13 +98,25 @@
   </div>
 
   <div class="footer">
-    <div>
-      Svenja Bauer
+    <div style="display: flex; justify-content: center;text-align: start;">
+      <div id="footer" style="margin-right: 200px;">
+        <div>
+          Svenja Bauer
+        </div>
+        <div>
+          <a href= "mailto:abc@example.com">info@entscheidungssafari.de</a>
+        </div>
+      </div>
+
+      <div style="display: block">
+
+        <div (click)="openSecurityInfo()" style="cursor: pointer">Datenschutz</div>
+        <div (click)="openImpressum()" style="cursor: pointer">Impressum</div>
+      </div>
+
+
     </div>
-    <div>
-      <a href= "mailto:abc@example.com">info@entscheidungssafari.de</a>
-    </div>
-    <div (click)="openSecurityInfo()" style="cursor: pointer"><u>Datenschutz</u></div>
+
     <mat-divider style="margin-top: 25px; margin-bottom: 25px"></mat-divider>
     <div class="footer-text">
       {{'ABOUT.FOOTER' | translate}}

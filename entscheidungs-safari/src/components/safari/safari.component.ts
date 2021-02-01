@@ -21,4 +21,7 @@ export class SafariComponent implements OnInit {
   openSecurityInfo() {
     this.router.navigate(['/data-security']);
   }
+  openImpressum() {
+    this.router.navigate(['/impressum']);
+  }
 }
