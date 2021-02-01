@@ -4,9 +4,9 @@
     "SELECT": "Wähle Sprache",
     "HEADER": "Entscheidungen treffen - eine Safari mit Herz, Bauch und Verstand.",
     "TEXT_1": "Hallo, mein Name ist Svenja. Ich bin Psychologin und ich helfe dir dabei, Entscheidungen zu treffen.",
-    "TEXT_2": "Momentan arbeite ich an den Inhalten dieser Website. Die Entscheidungssafari beginnt im März 2021. Dann wird es auch möglich sein kostenlose Kennenlerngespräche zu vereinbaren.",
+    "TEXT_2": "Momentan arbeite ich an den Inhalten dieser Website. Die Entscheidungssafari beginnt im März 2021. Dann wird es auch möglich sein kostenlose Vorgespräche zu vereinbaren.",
     "TEXT_3": "Bis dahin halte ich dich auf meinem Instagram-Account auf dem Laufenden.",
-    "BUTTON": "KOSTENLOSES KENNENLERNGESRÄCH VEREINBAREN (BUCHUNG AB MÄRZ 2021 MÖGLICH)",
+    "BUTTON": "KOSTENLOSES VORGESPRÄCH VEREINBAREN (BUCHUNG AB MÄRZ 2021 MÖGLICH)",
     "TEXT_4": "Willst du endlich Ordnung in deine Gedanken bringen, die immer wieder um die selbe Entscheidung kreisen, aber nie zum Ziel führen?",
     "TEXT_5": "Wünschst du dir Unterstützung von jemandem, der Ahnung von Entscheidungen hat und sich Zeit für dich und deine individuelle Situation nimmt?",
     "TEXT_6": "Fühlst du dich unfähig, eine Entscheidung zu treffen, ohne sie hinterher zu bereuen und wieder über den Haufen zu werfen?",
@@ -71,6 +71,6 @@
     "SEND_BTN": "Senden"
   },
   "SAFARI": {
-    "SAFARI": "Entscheidungs-Safari"
+    "SAFARI": "Entscheidungssafari"
   }
 }

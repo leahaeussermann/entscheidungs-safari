@@ -336,6 +336,7 @@
 
   .content-three{
     display: flex;
+    margin: 15px;
 
     .img-container-two {
       justify-content: flex-end;
@@ -343,28 +344,24 @@
       height: auto;
       min-height: unset;
       color: #FFFFFF;
-      background-color: rgba(133, 173, 110, 0.31);
       background-position: center center;
       background-size: cover;
       background-attachment: scroll;
       background-repeat: no-repeat;
-      padding: 15px;
 
       .cont-three-image{
         width: 85%;
         box-shadow: 0px 0px 10px 2px #85ad6e;
+        height: 100%;
       }
     }
     .cont-three-text-element{
-      background: rgba(133, 173, 110, 0.31);
       padding-right: 175px;
       padding-left: 15px;
 
       .content-three-text-wrap{
         display: block;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        height: 95%;
+        height: 100%;
         padding: 10px;
         text-align: center;
         background: rgba(133, 173, 110, 0.65);
@@ -555,89 +552,6 @@
         border-left-style: solid;
         padding: 15px 30px;
         text-align: center;
-      }
-    }
-  }
-
-  .content-how-to{
-    height: auto;
-    min-height: unset;
-    background-color: white;
-    background-image: none;
-    padding-top: 65px;
-
-    .how-to-wrapper{
-      display: block;
-
-      .how-to-wrap{
-        display: flex;
-        margin-right: 20px;
-        padding-left: 40px;
-        margin-bottom: 20px;
-        justify-content: center;
-
-        .how-to-header{
-          font-size: 28px;
-          color: #85ad6e;
-          margin-bottom: 10px;
-          align-self: center;
-        }
-      }
-
-      .how-to-li{
-        display: flex;
-        margin-right: 35px;
-        padding-left: 40px;
-        margin-bottom: 20px;
-
-        .how-to-li-item{
-          font-size: 16px;
-          color: #6b725b;
-          margin-bottom: 10px;
-          align-self: center;
-        }
-      }
-
-      .how-to-li-two{
-        display: flex;
-        margin-right: 35px;
-        padding-left: 40px;
-        margin-bottom: 20px;
-
-        .how-to-li-item-two{
-          font-size: 16px;
-          color: #6b725b;
-          margin-bottom: 10px;
-          align-self: center;
-        }
-      }
-
-      .how-to-li-three{
-        display: flex;
-        margin-right: 35px;
-        padding-left: 40px;
-        margin-bottom: 20px;
-
-        .how-to-li-item-three{
-          font-size: 16px;
-          color: #6b725b;
-          margin-bottom: 10px;
-          align-self: center;
-        }
-      }
-
-      .how-to-li-four{
-        display: flex;
-        margin-right: 35px;
-        padding-left: 40px;
-        margin-bottom: 20px;
-
-        .how-to-li-item-four{
-          font-size: 16px;
-          color: #6b725b;
-          margin-bottom: 10px;
-          align-self: center;
-        }
       }
     }
   }
