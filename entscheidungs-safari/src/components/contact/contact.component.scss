@@ -1,6 +1,11 @@
 @media (max-width: 767px) {
   #footer {
     margin-right: 10px !important;
+    margin-bottom: 15px !important;
+  }
+  #footer-div{
+    display: block !important;
+    text-align: center !important;
   }
 }
 
@@ -65,10 +70,12 @@
   background-color: rgba(133, 173, 110, 0.66);
   text-align: center;
   color: #6b725b;
+  font-size: 14px;
 
   .footer-text{
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+    line-height: 20px !important;
   }
 }
 input[type=checkbox]
