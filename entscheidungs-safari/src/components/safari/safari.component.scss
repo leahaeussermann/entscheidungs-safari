@@ -13,6 +13,9 @@
 }
 
 @media(max-width: 1170px){
+  .list{
+    padding-left: 0px;
+  }
   .cont-three-text{
     display: block !important;
   }
@@ -30,6 +33,12 @@
 }
 
 @media (max-width: 767px){
+  .list{
+    padding-left: 0px;
+  }
+  li{
+    padding-bottom: 10px;
+  }
   .cont-three-text-two{
     display: block !important;
   }
