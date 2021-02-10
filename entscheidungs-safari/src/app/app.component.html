@@ -24,7 +24,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav" [ngbCollapse]="isCollapsed"
          (click)="isCollapsed = !isCollapsed">
-      <ul class="navbar-nav" style="width: 100%">
+      <ul class="navbar-nav" style="width: 100%; justify-content: flex-end; align-items: center;">
         <li class="nav-item">
           <a class="nav-link active" routerLink="/home" routerLinkActive="selected" aria-current="page" href="#">
             {{ 'HOME.HOME' | translate}}
@@ -38,13 +38,17 @@
           <a class="nav-link active" routerLink="/safari" routerLinkActive="selected" aria-current="page" href="#">
             {{ 'SAFARI.SAFARI' | translate}}</a>
         </li>
-      </ul>
-      <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" routerLink="/contact" routerLinkActive="selected" aria-current="page" href="#">
             {{ 'CONTACT.CONTACT' | translate}}</a>
         </li>
       </ul>
+<!--      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/contact" routerLinkActive="selected" aria-current="page" href="#">
+            {{ 'CONTACT.CONTACT' | translate}}</a>
+        </li>
+      </ul>-->
     </div>
   </div>
 </nav>
