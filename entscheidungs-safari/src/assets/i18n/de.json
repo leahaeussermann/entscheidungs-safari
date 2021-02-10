@@ -52,7 +52,7 @@
     "SAFARI_TEXT": "vereint all das – Wissen, Erfahrung und meine Freude daran, mich mit Menschen auf einen Weg zu begeben, der zu etwas Neuem führt.",
     "ME_TEXT_4": "in Deutschland geboren und aufgewachsen, zwischenzeitlich hat es mich immer wieder für einige Zeit ins Ausland gezogen (USA, Belgien, Uganda) und seit 2018 lebe ich mit meinem Mann in Südafrika. Ich sehe mich als menschliches Chamäleon, ich kann mich den unterschiedlichsten Umständen und Situationen anpassen. Und ich suche die Herausforderung des Neuen und Unbekannten.",
     "ME_TEXT_5": "In Südafrika habe ich meine Begeisterung für Safaris entdeckt – lass mich stundenlang in einem offenen Safari-Auto durch die Wildnis fahren und ich bin glücklich.",
-    "FOOTER": "Ich weise ausdrücklich darauf hin, dass es sich weder um ein psychotherapeutisches oder medizinisches Angebot, noch um eine Rechtsberatung handelt. Mein Beratungsangebot beschränkt sich auf persönlichee Entscheidungen von Privatpersonen und ich bin in keinem Fall diagnostisch und/oder heilend tätig."
+    "FOOTER": "Ich weise ausdrücklich darauf hin, dass es sich weder um ein psychotherapeutisches oder medizinisches Angebot, noch um eine Rechtsberatung handelt. Mein Beratungsangebot beschränkt sich auf persönliche Entscheidungen von Privatpersonen und ich bin in keinem Fall diagnostisch und/oder heilend tätig."
 
   },
   "CONTACT": {
@@ -60,13 +60,13 @@
     "ERROR": "Fehler beim Senden, bitte kontaktiere mich über E-Mail-Adresse.",
     "TYPO": "Bitte gib deine Adresse (korrekte Schreibweise) und deinen Namen an.",
     "SENT": "Nachricht wurde gesendet.",
-    "HEADER": "Beginne deine persönliche Safari...",
-    "MESSAGE": "Sende mir eine Nachricht und ich melde mich bei dir",
+    "HEADER": "Beginne deine persönliche Entscheidungssafari.",
+    "MESSAGE": "Du möchtest dich für ein Vorgespräch anmelden, oder hast Fragen zu den Angeboten? Schicke mir deine Nachricht über das Kontaktformular, ich melde mich innerhalb von 48h (Mo.-Fr., außer an Feiertagen) bei dir.",
     "MAIL": "E-Mail",
     "ENTER_MAIL_ADDRESS": "Deine E-Mail Adresse",
     "HINT": "Ich gebe deine Adresse an niemanden weiter.",
     "NAME": "Name",
-    "FULL_NAME": "Vor- und Nachname",
+    "FULL_NAME": "Dein Name",
     "REQUEST": "Nachricht/ Anfrage",
     "SEND_BTN": "Senden"
   },
