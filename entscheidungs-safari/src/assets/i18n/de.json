@@ -4,9 +4,7 @@
     "SELECT": "Wähle Sprache",
     "HEADER": "Entscheidungen treffen - eine Safari mit Herz, Bauch und Verstand.",
     "TEXT_1": "Hallo, mein Name ist Svenja. Ich bin Psychologin und ich begleite und unterstütze dich auf dem Weg zu deiner Entscheidung.",
-    "TEXT_2": "Momentan arbeite ich an den Inhalten dieser Website. Die Entscheidungssafari beginnt im März 2021. Dann wird es auch möglich sein kostenlose Vorgespräche zu vereinbaren.",
-    "TEXT_3": "Bis dahin halte ich dich auf meinem Instagram-Account auf dem Laufenden.",
-    "BUTTON": "KOSTENLOSES VORGESPRÄCH VEREINBAREN (BUCHUNG AB MÄRZ 2021 MÖGLICH)",
+    "BUTTON": "KOSTENLOSES VORGESPRÄCH VEREINBAREN",
     "TEXT_4": "Willst du endlich Ordnung in deine Gedanken bringen, die immer wieder um die selbe Entscheidung kreisen, aber nie zum Ziel führen?",
     "TEXT_5": "Wünschst du dir Unterstützung von jemandem, der Ahnung von Entscheidungen hat und sich Zeit für dich und deine individuelle Situation nimmt?",
     "TEXT_6": "Fühlst du dich unfähig, eine Entscheidung zu treffen, ohne sie hinterher zu bereuen und wieder über den Haufen zu werfen?",
@@ -38,7 +36,7 @@
   "ABOUT": {
     "ABOUT_ME": "Über mich",
     "VISION_HEADER": "Meine Vision",
-    "VISION_TEXT_1": "ist es, Menschen dabei zu helfen Entscheidungen zu treffen. Im Leben stehen wir immer wieder vor schwierigen Entscheidungen. Oft haben wir dabei das Gefühl, wir müssten irgendwie alleine in der Lage sein, die richtige Entscheidung zu treffen. Doch schwierige Entscheidungen können uns lähmen, uns die Lebensfreude nehmen und Selbstzweifel wachsen lassen.",
+    "VISION_TEXT_1": "ist es, Menschen einen neuen Weg zu zeigen, wie sie Entscheidungen treffen können. Im Leben stehen wir immer wieder vor schwierigen Entscheidungen. Oft haben wir dabei das Gefühl, wir müssten irgendwie alleine in der Lage sein, die richtige Entscheidung zu treffen. Doch schwierige Entscheidungen können uns lähmen, uns die Lebensfreude nehmen und Selbstzweifel wachsen lassen.",
     "VISION_TEXT_2": "Ich bin davon überzeugt, dass es noch einen anderen Weg gibt, Entscheidungen zu treffen. Dieser Weg ist aufregend und spannend, es ist ein Weg, auf dem du Neues über dich lernst, der neue Perspektiven eröffnet und der sogar Begeisterung und Neugier auf das Unbekannte, auf deine Entscheidung und das, was danach kommt, entstehen lässt.",
     "MORE": "ERFAHRE MEHR",
     "WORK_HEADER": "In meiner Arbeit",
@@ -51,7 +49,7 @@
     "SAFARI_HEADER": "Die Entscheidungssafari",
     "SAFARI_TEXT": "vereint all das – Wissen, Erfahrung und meine Freude daran, mich mit Menschen auf einen Weg zu begeben, der zu etwas Neuem führt.",
     "ME_TEXT_4": "in Deutschland geboren und aufgewachsen, zwischenzeitlich hat es mich immer wieder für einige Zeit ins Ausland gezogen (USA, Belgien, Uganda) und seit 2019 lebe ich mit meinem Mann in Südafrika. Ich sehe mich als menschliches Chamäleon, ich kann mich den unterschiedlichsten Umständen und Situationen anpassen. Und ich suche die Herausforderung des Neuen und Unbekannten.",
-    "ME_TEXT_5": "In Südafrika habe ich meine Begeisterung für Safaris entdeckt – lass mich stundenlang in einem offenen Safari-Auto durch die Wildnis fahren und ich bin glücklich.",
+    "ME_TEXT_5": "In Südafrika habe ich meine Begeisterung für Safaris entdeckt - sobald ich in einem offenen Safari-Auto durch die Wildnis fahre, bin ich glücklich.",
     "FOOTER": "Ich weise ausdrücklich darauf hin, dass es sich weder um ein psychotherapeutisches oder medizinisches Angebot, noch um eine Rechtsberatung handelt. Mein Beratungsangebot beschränkt sich auf persönliche Entscheidungen von Privatpersonen und ich bin in keinem Fall diagnostisch und/oder heilend tätig."
 
   },
