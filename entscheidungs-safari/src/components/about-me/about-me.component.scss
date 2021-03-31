@@ -19,6 +19,15 @@
   .cont-three-text-two{
     display: block !important;
   }
+  .image-cont-three{
+    max-height: none !important;
+  }
+}
+
+@media(min-width: 1600px){
+  .image-cont-three{
+    max-height: none !important;
+  }
 }
 
 @media (max-width: 767px){
@@ -267,6 +276,8 @@
               width: 100%;
               box-shadow: 0px 0px 10px 2px #85ad6e;
               height: 100%;
+              min-width: 376px;
+              max-height: 426px;
             }
           }
 
