@@ -240,7 +240,11 @@
                 </div>
               </div>
               <div style="text-align: center; padding-top: 50px">
-                <button class="btn-one" (click)="redirectToContact()">Jetzt kostenloses Vorgespräch vereinbaren</button>
+                <button class="btn-one" (click)="redirectToContact()">{{'HOME.BUTTON' | translate}}</button>
+
+              </div>
+              <div style="text-align: center; padding-top: 50px">
+                <button class="btn-one" (click)="openCalendly()">{{'HOME.BUTTON_CALENDLY' | translate}}</button>
 
               </div>
 

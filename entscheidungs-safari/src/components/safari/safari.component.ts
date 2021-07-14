@@ -24,4 +24,8 @@ export class SafariComponent implements OnInit {
   openImpressum() {
     this.router.navigate(['/impressum']);
   }
+
+  openCalendly() {
+    window.open('https://calendly.com/entscheidungssafari', '_blank');
+  }
 }

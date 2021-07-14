@@ -76,4 +76,7 @@ export class ContactComponent implements OnInit, OnDestroy {
   checkboxClicked() {
     this.checked = !this.checked;
   }
+  openCalendly() {
+    window.open('https://calendly.com/entscheidungssafari', '_blank');
+  }
 }

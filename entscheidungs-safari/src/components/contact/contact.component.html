@@ -58,6 +58,10 @@
           <div *ngIf="isLoading" class="spinner-container">
             <mat-spinner></mat-spinner>
           </div>
+
+          <div style="width: 100%; text-align: center;">
+            <button class="btn-calendly" (click)="openCalendly()">{{'HOME.BUTTON_CALENDLY' | translate}}</button>
+          </div>
         </form>
       </div>
     </div>
