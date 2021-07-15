@@ -51,6 +51,9 @@
   .cont-four-text-wrap-two {
     width: 100% !important;
   }
+  .cont-four-text-wrap-two-ul {
+    margin-top: 15px !important;
+  }
   .text-wrap-two {
     width: 100% !important;
   }
@@ -93,9 +96,15 @@
       .text-header-one{
         font-weight: 600;
         text-align: center;
-        font-size: 42px;
+        font-size: 40px;
       }
 
+      .text-header-h2{
+        font-size: 25px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
       .text-header-two{
         font-size: 20px;
         text-align: center;
@@ -344,27 +353,12 @@
 
   .content-three{
     display: flex;
-    margin: 15px;
+    padding: 15px;
+    background-color: rgba(133, 173, 110, 0.35);
+    color: #526a44;
 
-    .img-container-two {
-      justify-content: flex-end;
-      display: flex;
-      height: auto;
-      min-height: unset;
-      color: #FFFFFF;
-      background-position: center center;
-      background-size: cover;
-      background-attachment: scroll;
-      background-repeat: no-repeat;
-
-      .cont-three-image{
-        width: 85%;
-        box-shadow: 0px 0px 10px 2px #85ad6e;
-        height: 100%;
-      }
-    }
     .cont-three-text-element{
-      padding-right: 175px;
+      padding-right: 15px;
       padding-left: 15px;
 
       .content-three-text-wrap{
@@ -372,13 +366,13 @@
         height: 100%;
         padding: 10px;
         text-align: center;
-        background: rgba(133, 173, 110, 0.65);
+        // background: rgba(133, 173, 110, 0.65);
 
         .cont-three-text{
           font-weight: 400;
           font-size: 18px;
           letter-spacing: 0;
-          color: #FFFFFF;
+          // color: #FFFFFF;
           font-family: 'Architects Daughter', cursive;
           padding-top: 15px;
           padding-bottom: 15px
@@ -405,6 +399,9 @@
         flex: 0 0 auto;
         height: auto;
         min-height: unset;
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
 
         .cont-four-ul{
           list-style-type: none;
@@ -436,7 +433,27 @@
               line-height: 25px;
             }
           }
+
+          .img-container-two {
+            justify-content: flex-end;
+            display: flex;
+            height: auto;
+            min-height: unset;
+            color: #FFFFFF;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+
+            .cont-three-image{
+              width: 85%;
+              box-shadow: 0px 0px 10px 2px #85ad6e;
+              height: 100%;
+            }
+          }
         }
+
+
       }
 
       .cont-four-text-wrap-two{
@@ -448,14 +465,18 @@
           list-style-type: none;
           line-height: initial;
           margin: 0;
-          display: inline-block;
           max-width: 100%;
           overflow: hidden;
           padding-right: 40px;
+          height: 100%;
+          display: grid;
+          justify-content: space-around;
+          align-items: center;
 
           .cont-four-text-wrap-two-li-wrap{
             display: flex;
             padding-bottom: 15px;
+            height: 20%;
 
             .cont-four-text-wrap-two-li-text{
               font-size: 16px;
@@ -532,7 +553,7 @@
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
-        padding-top: 50px;
+        padding-top: 30px;
       }
 
       .btn-appointment{

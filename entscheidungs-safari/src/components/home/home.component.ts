@@ -27,4 +27,8 @@ export class HomeComponent implements OnInit {
   openCalendly() {
     window.open('https://calendly.com/entscheidungssafari', '_blank');
   }
+
+  redirectToSafari() {
+    this.router.navigate(['/safari']);
+  }
 }

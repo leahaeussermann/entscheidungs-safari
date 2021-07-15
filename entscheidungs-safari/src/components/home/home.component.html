@@ -1,17 +1,11 @@
 <div class="home">
   <div class="imgContainer" style="background-image: url('./assets/images/rsz_1backgrkomp.jpg');">
     <div class="wrapper" style="padding-top: 110px;">
-      <h2 class="text-header-one"> {{'HOME.HEADER' | translate}} </h2>
-      <div class="text-header-two">
-        <br>
-        <p> {{'HOME.TEXT_1' | translate}}</p>
-      </div>
-    </div>
-    <div class="button-one">
-      <span>
-    <button class="btn-appointment" (click)="redirectToContact()">
-      {{'HOME.BUTTON' | translate}} </button>
-    </span>
+      <h1 class="text-header-one"> {{'HOME.HEADER' | translate}} </h1>
+      <br>
+      <h2 class="text-header-h2"> {{'HOME.TEXT_1' | translate}}</h2>
+      <br>
+      <div class="text-header-two"> {{'HOME.TEXT_2' | translate}}</div>
     </div>
     <div class="button-one">
       <span>
@@ -75,12 +69,6 @@
     </div>
     <div class="button-four">
       <span>
-    <button class="btn-appointment" (click)="redirectToContact()">{{'HOME.BUTTON' | translate}}</button>
-    </span>
-    </div>
-    <div class="button-four">
-
-      <span>
           <button class="btn-appointment" (click)="openCalendly()">{{'HOME.BUTTON_CALENDLY' | translate}}</button>
         </span>
     </div>
@@ -123,16 +111,22 @@
     </div>
   </div>
   <div class="content-three">
-    <div class="img-container-two">
-      <img class="cont-three-image" src="./assets/images/bild1komp.jpg">
-    </div>
     <div class="cont-three-text-element">
       <div class="content-three-text-wrap">
         <div class="cont-three-text">
-          {{'HOME.TEXT_12' | translate}}
-          <br>
-          <br>
-          {{'HOME.TEXT_13' | translate}}
+          <div style="margin-top: 0; margin-bottom: 30px; font-size: 24px">
+            {{'HOME.TEXT_12' | translate}}
+          </div>
+          <div
+            style="border: rgba(133, 173, 110, 1); border-width: 1px; border-style: solid; border-radius: 5px;background: white;">
+            <p style="margin-bottom: 0">Christina:</p>
+            <p style="padding: 10px;">{{'HOME.TEXT_13' | translate}}</p>
+          </div>
+          <div
+            style="border: rgba(133, 173, 110, 1); border-width: 1px; border-style: solid; border-radius: 5px;background: white; margin-top: 25px">
+            <p style="margin-bottom: 0">Sebastian:</p>
+            <p style="padding: 10px;">{{'HOME.TEXT_13A' | translate}}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -142,29 +136,14 @@
       <div class="cont-four-text-wrap">
         <div style="display: flex">
           <ul class="cont-four-ul">
-            <li>
-              <div class="ul-li-item">
-                <div class="li-item-text">
-                  {{'HOME.TEXT_14' | translate}}
-                </div>
-                <div class="li-item-text-two">
-                  {{'HOME.TEXT_15' | translate}}
-                  <br>
-                  {{'HOME.TEXT_16' | translate}}
-                  <br>
-                  <br>
-                  {{'HOME.TEXT_17' | translate}}
-                  <br>
-                  <br>
-                  {{'HOME.TEXT_18' | translate}}
-                </div>
-              </div>
-            </li>
+            <div class="img-container-two">
+              <img class="cont-three-image" src="./assets/images/bild1komp.jpg">
+            </div>
           </ul>
         </div>
       </div>
       <div class="cont-four-text-wrap-two">
-        <div>
+        <div style="height: 100%;">
           <ul class="cont-four-text-wrap-two-ul">
             <li>
               <div class="cont-four-text-wrap-two-li-wrap">
@@ -222,11 +201,10 @@
       {{'HOME.TEXT_24' | translate}}
       <div class="appointment-button">
         <span>
-        <button class="btn-appointment" (click)="redirectToContact()">{{'HOME.BUTTON' | translate}}</button>
+          <button class="btn-appointment" (click)="redirectToSafari()">{{'ABOUT.MORE' | translate}}</button>
         </span>
       </div>
       <div class="appointment-button">
-
         <span>
           <button class="btn-appointment" (click)="openCalendly()">{{'HOME.BUTTON_CALENDLY' | translate}}</button>
         </span>
