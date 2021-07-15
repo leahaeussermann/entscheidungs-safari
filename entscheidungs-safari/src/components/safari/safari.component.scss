@@ -18,6 +18,10 @@
     display: block !important;
     text-align: center !important;
   }
+  #img-footer{
+    margin-right: 0 !important;
+    margin-bottom: 10px !important;
+  }
 }
 
 @media(max-width: 1170px){
@@ -141,7 +145,7 @@
   color: #6b725b;
 
   .imgContainer{
-    height: auto;
+    //height: auto;
     min-height: unset;
     color: white;
     background-color: rgba(133, 173, 110, 0.35);
@@ -213,10 +217,52 @@
         }
       }
     }
-    .content-one{
+    .contentOneA{
       height: auto;
       min-height: unset;
       background-color: white;
+      background-image: none;
+      padding-top: 45px;
+      padding-bottom: 90px;
+      box-shadow: 0px 0px 10px 2px #85ad6e;
+      margin-top: 30px;
+      text-align: center;
+
+      .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        display: -webkit-box;
+
+        .wrapper-one{
+          width: 100%;
+          flex: 0 0 auto;
+          height: auto;
+          min-height: unset;
+          display: block;
+
+          .first-part{
+            display: flex;
+
+            .text{
+              display: block;
+              margin-right: 50px;
+              margin-left: 50px;
+              margin-bottom: 16px;
+              line-height: 1.6;
+
+              .span-first-word{
+                font-size: 28px;
+                color: #85ad6e;
+              }
+            }
+          }
+        }
+      }
+    }
+    .content-one{
+      height: auto;
+      min-height: unset;
+      background-color: rgba(133, 173, 110, 0.35);
       background-image: none;
       padding-top: 90px;
       padding-bottom: 90px;
@@ -280,7 +326,7 @@
     .content-two{
       height: auto;
       min-height: unset;
-      background-color: rgba(133, 173, 110, 0.35);
+      background-color: white;
       background-image: none;
       padding-top: 40px;
       padding-bottom: 90px;
@@ -350,7 +396,7 @@
     .content-four{
       height: auto;
       min-height: unset;
-      background-color: white;
+      background-color: rgba(133, 173, 110, 0.35);
 
       background-image: none;
       padding-top: 40px;
@@ -385,11 +431,10 @@
         }
       }
     }
-
     .content-five{
       height: auto;
       min-height: unset;
-      background-color: rgba(133, 173, 110, 0.35);
+      background-color: white;
       background-image: none;
       padding-top: 40px;
       padding-bottom: 90px;
